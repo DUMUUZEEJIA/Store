@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #box {
+            background: red;
+            outline: none;
+            width: 100px;
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+<button id="box" disabled>2222222</button>
+</body>
+<script>
+    function object(o) { function F() { } F.prototype = o; return new F(); }
+    var person = { name: "Nicholas", friends: ["Shelby", "Court", "Van"] };
+
+    var anotherPerson = object(person);
+    anotherPerson.name = "Greg";
+    anotherPerson.friends.push("Rob");
+
+    var yetAnotherPerson = object(person);
+    console.log(yetAnotherPerson.name, yetAnotherPerson.friends)
+    yetAnotherPerson.name = "Linda";
+    yetAnotherPerson.friends.push("Barbie");
+    console.log(person.friends)
+    jsonp_1521441056364_68385({ elapsed_time: "2.9093", code: 200, msg: "succeed", data: true })
+        code
+        :
+        200
+        data
+        :
+        true
+        elapsed_time
+        :
+        "2.9093"
+        msg
+        :
+        "succeed"
+</script>
+
+</html>
+
+<!-- 
+    <!DOCTYPE html>
+    <html>
+    
+    <head>
+        <title>Welcome to nginx!</title>
+        <style>
+            body {
+                width: 35em;
+                margin: 0 auto;
+                font-family: Tahoma, Verdana, Arial, sans-serif;
+            }
+    
+            .ipt {
+                margin-bottom: 15px;
+                line-height: 46px;
+                padding-left: 10px;
+                border: none;
+                background: #ad0000;
+                border-radius: 2px;
+                display: inline-block;
+                outline: none;
+                font-size: 16px;
+                color: #9a9a9a;
+                letter-spacing: .16px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1>Welcome to nginx!</h1>
+        <div>
+            <input type="text" class="ipt">
+        </div>
+        <p>If you see this page, the nginx web server is successfully installed and working. Further configuration is required.</p>
+    
+        <p>For online documentation and support please refer to
+            <a href="http://nginx.org/">nginx.org</a>.
+            <br/> Commercial support is available at
+            <a href="http://nginx.com/">nginx.com</a>.</p>
+    
+        <p>
+            <em>Thank you for using nginx.</em>
+        </p>
+    </body>
+    
+    </html>
+ -->

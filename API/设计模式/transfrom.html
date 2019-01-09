@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<style>
+.box1{
+width: 750px;
+height: 450px;
+margin: 100px auto;
+transform: scale(0.6) translateY(-120px);
+}
+.box2{
+position: relative;
+perspective: 1000px;
+}
+.box3{
+width: 600px;
+height: 600px;
+transform-style: preserve-3d;
+transform-origin: 50% 50% 150px;
+animation: rotate-frame 30s linear infinite;
+}
+.list{
+width: 300px;
+height: 300px;
+position: absolute;
+}
+.top{
+left: 150px;
+top: -250px;
+transform-origin: bottom;
+transform: rotateX(-90deg);
+/* background-image: url(img/22.JPG); */
+background: lawngreen;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.bottom{
+left: 150px;
+bottom: -250px;
+transform-origin: top;
+transform: rotateX(90deg);
+/* background-image: url(img/55.JPG);
+ */
+ background: hotpink;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.left{
+left: -250px;
+top: 150px;
+transform-origin: right;
+transform: rotateY(90deg);
+/* background-image: url(img/640.jpg);
+ */
+ background: yellowgreen;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.right{
+left: 550px;
+top: 150px;
+transform-origin: left;
+transform: rotateY(-90deg);
+/* background-image: url(img/44.JPG);
+ */
+ background: rebeccapurple;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.front{
+left: 150px;
+top: 150px;
+transform: translateZ(300px);
+/* background-image: url(img/blm027655.jpg); */
+background: gold;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.back{
+left: 150px;
+top: 150px;
+transform: translateZ(0);
+background: red;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+@keyframes rotate-frame {
+ 0% { transform: rotateX(0deg) rotateY(0deg); } 
+ 10% { transform: rotateX(0deg) rotateY(180deg); } 
+ 20% { transform: rotateX(-180deg) rotateY(180deg); } 
+ 30% { transform: rotateX(-360deg) rotateY(180deg); } 
+ 40% { transform: rotateX(-360deg) rotateY(360deg); } 
+ 50% { transform: rotateX(-180deg) rotateY(360deg); } 
+ 60% { transform: rotateX(90deg) rotateY(180deg); } 
+ 70% { transform: rotateX(0) rotateY(180deg); } 
+ 80% { transform: rotateX(90deg) rotateY(90deg); } 
+ 90% { transform: rotateX(90deg) rotateY(0); } 
+ 100% { transform: rotateX(0) rotateY(0); } }
+</style>
+<body>
+<div class="box1">
+<div class="box2">
+<div class="box3">
+<div class="top list">1</div>
+    <div class="bottom list">2</div>
+    <div class="left list">3</div>
+    <div class="right list">4</div>
+    <div class="front list">5</div>
+    <div class="back list">6</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>

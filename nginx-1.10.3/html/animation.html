@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .mask {
+      position:fixed;
+      z-index: -1;
+height: 100%;
+width: 100%;
+      background:black;
+    }
+    .inner {
+      display: none;
+      top: 100px;
+      z-index: 9999;
+      width: 100px;
+      height: 100px;
+      background: red;
+      animation: fadeIn 2s infinite linear;
+    }
+    @keyframes aa {
+     0% {
+        transform: rotateY(0deg);
+         z-index: 9999;
+        
+      }
+      50% {
+        transform: rotateY(180deg);
+      z-index: 9999;
+        
+      }
+      100% {
+        transform: rotateY(0deg);
+      z-index: 9999;
+        
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+        transform: rotateY(0deg);
+      z-index: 9999;
+        
+      }
+      50% {
+        transform: rotateY(180deg);
+      z-index: 9999;
+        
+      }
+      100% {
+        transform: rotateY(0deg);
+      z-index: 9999;
+        
+      }
+    }
+    #box {
+      position: fixed;
+      z-index: 10;
+    }
+    .wrap {
+      height: 100%;
+      width: 100%;
+      background: transparent;
+    }
+  </style>
+</head>
+<body>
+  <br/>
+
+  <div class="mask"></div>
+  <button id="box">开始</button>
+  <div class="wrap">
+    <div class="inner"></div>
+
+  </div>
+</body>
+<script>
+  var box = document.getElementById('box')
+  var inner = document.getElementsByClassName('inner')
+  box.onclick=function() {
+    console.log(inner)
+    inner[0].style.display ='block'
+  }
+</script>
+</html>

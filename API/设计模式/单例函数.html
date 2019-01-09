@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var f;
+    function f(params) {
+      
+    }
+    console.log(f)
+     var creatKing = (function (params) {
+       function King(name) {
+          this.name = name
+       }
+       var King;
+       return function (name) {
+         console.log(King)
+         if (!King) {
+           King = new King(name)
+         }
+         King.name = name;
+         return King;
+       }
+     })()
+var k1 = creatKing('康熙')
+  </script>
+</body>
+</html>

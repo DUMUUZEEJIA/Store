@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <label>照相机</label>
+  <input type="file" id='image' accept="image/*" >
+  <br>
+  <label>摄像机</label>
+  <input type="file" id='video' accept="video/*" >
+</body>
+<script src="https://cdn.bootcss.com/vConsole/3.2.0/vconsole.min.js"></script>
+<script>
+   var vConsole = new VConsole();
+function getIos() {
+  var ua = navigator.userAgent.toLowerCase();
+  if (ua.match(/iPhone\sOS/i) == "iphone os") {
+    return true;
+  } else {
+    return false;
+  }
+}
+var ua = navigator
+console.log(ua)
+
+</script>
+</html>

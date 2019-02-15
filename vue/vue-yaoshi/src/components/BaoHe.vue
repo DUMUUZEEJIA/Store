@@ -38,7 +38,7 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #000;
+  /* background: #000; */
 }
 .circle {
   width: 100px;

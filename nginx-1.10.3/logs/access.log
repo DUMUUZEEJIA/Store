@@ -3094,3 +3094,7 @@
 127.0.0.1 - - [05/Jan/2019:12:39:09 +0800] "GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=95F836778C37753722EC4C44ED353B6F&v=8.8.0.1956&r=0000_sogou_pinyin_88c HTTP/1.1" 404 169 "-" "SOGOU_UPDATER"
 127.0.0.1 - - [05/Jan/2019:12:39:35 +0800] "GET http://config.pinyin.sogou.com/api/toolbox/geturl.php?h=95F836778C37753722EC4C44ED353B6F&v=8.8.0.1956&r=0000_sogou_pinyin_88c HTTP/1.1" 404 169 "-" "SOGOU_UPDATER"
 127.0.0.1 - - [08/Jan/2019:17:16:55 +0800] "GET http://input.shouji.sogou.com/jsp/personalcenter/pcgettime.jsp?h=95F836778C37753722EC4C44ED353B6F&v=8.8.0.1956&r=0000_sogou_pinyin_88c&St=1&Ut=1 HTTP/1.1" 404 169 "-" "SOGOU_UPDATER"
+192.168.137.1 - - [12/Feb/2019:14:19:18 +0800] "GET / HTTP/1.1" 200 2151 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+192.168.137.1 - - [12/Feb/2019:14:19:22 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "http://192.168.137.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+192.168.137.1 - - [12/Feb/2019:14:19:44 +0800] "GET /fixed.html HTTP/1.1" 200 522 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+192.168.137.1 - - [12/Feb/2019:14:20:30 +0800] "GET /fixed.html HTTP/1.1" 200 534 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"

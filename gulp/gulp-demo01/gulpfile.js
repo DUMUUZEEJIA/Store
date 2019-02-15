@@ -15,13 +15,33 @@ gulp.task('js', function (params) {
   return gulp.src('src/**/*.js')
     .pipe($.concat('build.js'))
     .pipe(gulp.dest('dist/js/'))
+    .pipe($.rev())
     .pipe($.uglify())
     .pipe($.rename({suffix: '.min'}))
+    .pipe($.rev.manifest())
     .pipe(gulp.dest('dist/js/'))
     .pipe($.livereload())
     .pipe($.connect.reload())
 })
 
+gulp.task('rev', function () {
+  return gulp.src(['rev/**/*.json', 'templates/**/*.html'])
+    .pipe(revCollector({
+      replaceReved: true,
+      dirReplacements: {
+        'css': '/dist/css',
+        '/js/': '/dist/js/',
+        'cdn/': function (manifest_value) {
+          return '//cdn' + (Math.floor(Math.random() * 9) + 1) + '.' + 'exsample.dot' + '/img/' + manifest_value;
+        }
+      }
+    }))
+    .pipe(minifyHTML({
+      empty: true,
+      spare: true
+    }))
+    .pipe(gulp.dest('dist'));
+});
 gulp.task('less', function (done) {
   return gulp.src('src/less/*.less')
     .pipe($.less())
@@ -37,7 +57,7 @@ gulp.task('css', function () {
   .pipe(gulp.dest('dist/css/'))
     .pipe($.rename({suffix: '.min'}))
     .pipe($.cleanCss({compatibility: 'ie8'}))
-  .pipe(gulp.dest('dist/css/'))
+    .pipe(gulp.dest('dist/css/'))
     .pipe($.livereload())
     .pipe($.connect.reload())
 })

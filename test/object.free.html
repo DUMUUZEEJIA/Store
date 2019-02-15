@@ -7,15 +7,19 @@
   <title>Document</title>
 </head>
 <body>
+  <button id='btn'>替换</button>
+  <img src="1111" alt="11111" id="img" height="200" width="400">
+
+  <input type="number" oninput="if(value.length>5) value=value.slice(0,5)"> 
+
+
+
   <script>
-    let obj = {
-      name: '历史',
-      age: 20
+    var str = 'http://img0.bdstatic.com/static/searchresult/img/logo-2X_b99594a.png'
+    btn.onclick= function (e) {
+var ele = e.target.nextElementSibling
+console.log(e, ele)
     }
-    Object.freeze(obj)
-    obj.sex = 909
-    console.log(obj.name)
-    console.log(obj.sex)
   </script>
 </body>
 </html>

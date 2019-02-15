@@ -6,4 +6,3 @@ app.use(async ctx => {
 })
 app.listen(9999, () => {
   console.log(9999)
-})

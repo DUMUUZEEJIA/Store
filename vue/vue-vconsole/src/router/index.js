@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Btn from '@/components/Btn'
 import JsTip from '@/pages/jsTip'
 import Login from '@/pages/login'
+import Login from '@/pages/login'
 
 Vue.use(Router)
 

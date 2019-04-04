@@ -367,9 +367,9 @@ function foo() {
 var a = 2;
 var o = { a: 3, foo: foo };
 var p = { a: 4 };
-o.foo(); // 3
+o.foo(); // 3 
 //将o.foo函数赋值给p.foo函数，然后立即执行。相当于仅仅是foo()函数的立即执行
-(p.foo = o.foo)(); // 2 foo()  （foo)()
+(p.foo = o.foo)(); // 2 foo()  （foo)() （）这个前面一定要有分号； 不然报错 也可以let var下
 // 在看看
 
 ```

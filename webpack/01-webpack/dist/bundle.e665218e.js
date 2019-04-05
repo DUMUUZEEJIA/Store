@@ -97,14 +97,37 @@ eval("module.exports = 'hello world'\n\n//# sourceURL=webpack:///./src/a.js?");
 
 /***/ }),
 
+/***/ "./src/comm.css":
+/*!**********************!*\
+  !*** ./src/comm.css ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/style-loader/index.js):\\nValidationError: Style Loader Invalid Options\\n\\noptions should NOT have additional properties\\n\\n    at validateOptions (C:\\\\workspace\\\\Store\\\\webpack\\\\01-webpack\\\\node_modules\\\\schema-utils\\\\src\\\\validateOptions.js:32:11)\\n    at Object.module.exports.pitch (C:\\\\workspace\\\\Store\\\\webpack\\\\01-webpack\\\\node_modules\\\\style-loader\\\\index.js:17:2)\");\n\n//# sourceURL=webpack:///./src/comm.css?");
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/style-loader/index.js):\\nValidationError: Style Loader Invalid Options\\n\\noptions should NOT have additional properties\\n\\n    at validateOptions (C:\\\\workspace\\\\Store\\\\webpack\\\\01-webpack\\\\node_modules\\\\schema-utils\\\\src\\\\validateOptions.js:32:11)\\n    at Object.module.exports.pitch (C:\\\\workspace\\\\Store\\\\webpack\\\\01-webpack\\\\node_modules\\\\style-loader\\\\index.js:17:2)\");\n\n//# sourceURL=webpack:///./src/index.css?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("let str = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\nconsole.log(str)\r\nconsole.log('hello world')\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _comm_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./comm.css */ \"./src/comm.css\");\n/* harmony import */ var _comm_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_comm_css__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\n// require('./index.css');\r\nlet str = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\n\r\n// var flag = false;\r\n// setInterval(function () {\r\n//     if (flag) {\r\n//       index.use();\r\n//       comm.unuse();\r\n//     } else {\r\n//       index.unuse();\r\n//       comm.use();\r\n//     }\r\n//     flag = !flag;\r\n// }, 5000);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

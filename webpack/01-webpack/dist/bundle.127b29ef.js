@@ -104,7 +104,7 @@ eval("module.exports = 'hello world'\n\n//# sourceURL=webpack:///./src/a.js?");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("let str = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\nconsole.log(str)\r\nconsole.log('hello world')\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// import index from './index.css';\r\n// import comm from './comm.css';\r\n// require('./index.css');\r\nlet str = __webpack_require__(/*! ./a.js */ \"./src/a.js\")\r\n\r\n// var flag = false;\r\n// setInterval(function () {\r\n//     if (flag) {\r\n//       index.use();\r\n//       comm.unuse();\r\n//     } else {\r\n//       index.unuse();\r\n//       comm.use();\r\n//     }\r\n//     flag = !flag;\r\n// }, 5000);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

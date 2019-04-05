@@ -1,7 +1,16 @@
-import url  from './index.css';
+import index from './index.css';
+import comm from './comm.css';
+// require('./index.css');
 let str = require('./a.js')
-console.log(str)
-console.log('hello world')
-// import('./index.css');
-// style.className === 'z849f98ca812';
-// console.log(style)
+console.log(index.toString())
+// var flag = false;
+// setInterval(function () {
+//     if (flag) {
+//       index.use();
+//       comm.unuse();
+//     } else {
+//       index.unuse();
+//       comm.use();
+//     }
+//     flag = !flag;
+// }, 5000);

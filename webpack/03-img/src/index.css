@@ -1,0 +1,4 @@
+@import './base.css';
+body {
+  background: goldenrod url(./img/logo.png) !important;
+}

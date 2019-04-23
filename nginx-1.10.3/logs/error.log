@@ -2863,3 +2863,5 @@
 2019/03/22 17:17:36 [emerg] 4964#2360: CreateDirectory() "C:\workspace\Store\nginx-1.10.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
 2019/03/22 17:19:32 [emerg] 23056#17912: CreateDirectory() "C:\workspace\Store\nginx-1.10.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
 2019/03/22 17:20:13 [emerg] 21236#21296: CreateDirectory() "C:\workspace\Store\nginx-1.10.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2019/04/08 15:26:58 [emerg] 11032#9292: CreateDirectory() "C:\workspace\Store\nginx-1.10.3/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2019/04/08 15:32:25 [emerg] 12348#12340: CreateDirectory() "C:\workspace\Store\nginx-1.10.3/temp/client_body_temp" failed (3: The system cannot find the path specified)

@@ -1,0 +1,48 @@
+190509 17:14:50 [Note] Plugin 'FEDERATED' is disabled.
+190509 17:14:50 InnoDB: The InnoDB memory heap is disabled
+190509 17:14:50 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190509 17:14:50 InnoDB: Compressed tables use zlib 1.2.3
+190509 17:14:50 InnoDB: Initializing buffer pool, size = 47.0M
+190509 17:14:50 InnoDB: Completed initialization of buffer pool
+190509 17:14:51 InnoDB: highest supported file format is Barracuda.
+190509 17:14:51  InnoDB: Waiting for the background threads to start
+190509 17:14:52 InnoDB: 5.5.53 started; log sequence number 1595675
+190509 17:14:52 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190509 17:14:52 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190509 17:14:52 [Note] Server socket created on IP: '0.0.0.0'.
+190509 17:26:28 [Note] Plugin 'FEDERATED' is disabled.
+190509 17:26:28 InnoDB: The InnoDB memory heap is disabled
+190509 17:26:28 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190509 17:26:28 InnoDB: Compressed tables use zlib 1.2.3
+190509 17:26:28 InnoDB: Initializing buffer pool, size = 47.0M
+190509 17:26:28 InnoDB: Completed initialization of buffer pool
+190509 17:26:28 InnoDB: highest supported file format is Barracuda.
+190509 17:26:29  InnoDB: Waiting for the background threads to start
+190509 17:26:30 InnoDB: 5.5.53 started; log sequence number 1595675
+190509 17:26:30 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190509 17:26:30 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190509 17:26:30 [Note] Server socket created on IP: '0.0.0.0'.
+190509 17:29:12 [Note] Plugin 'FEDERATED' is disabled.
+190509 17:29:12 InnoDB: The InnoDB memory heap is disabled
+190509 17:29:12 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190509 17:29:12 InnoDB: Compressed tables use zlib 1.2.3
+190509 17:29:12 InnoDB: Initializing buffer pool, size = 47.0M
+190509 17:29:12 InnoDB: Completed initialization of buffer pool
+190509 17:29:12 InnoDB: highest supported file format is Barracuda.
+190509 17:29:12  InnoDB: Waiting for the background threads to start
+190509 17:29:13 InnoDB: 5.5.53 started; log sequence number 1595675
+190509 17:29:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190509 17:29:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190509 17:29:13 [Note] Server socket created on IP: '0.0.0.0'.
+190509 17:33:48 [Note] Plugin 'FEDERATED' is disabled.
+190509 17:33:48 InnoDB: The InnoDB memory heap is disabled
+190509 17:33:48 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+190509 17:33:48 InnoDB: Compressed tables use zlib 1.2.3
+190509 17:33:48 InnoDB: Initializing buffer pool, size = 47.0M
+190509 17:33:48 InnoDB: Completed initialization of buffer pool
+190509 17:33:48 InnoDB: highest supported file format is Barracuda.
+190509 17:33:48  InnoDB: Waiting for the background threads to start
+190509 17:33:49 InnoDB: 5.5.53 started; log sequence number 1595675
+190509 17:33:49 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+190509 17:33:49 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+190509 17:33:49 [Note] Server socket created on IP: '0.0.0.0'.

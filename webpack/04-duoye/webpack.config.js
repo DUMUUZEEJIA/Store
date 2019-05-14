@@ -26,6 +26,7 @@ module.exports = {
       template: './src/index.html',
       filename: 'other.html',
       chunks: ['other'],
+      
       title: 'other'
     })
   ],
@@ -44,5 +45,10 @@ module.exports = {
       }
     ]
   },
-  devtool: 'source-map'
+  devtool: 'eval-source-map'
 }
+/**
+ * devtool: 'source-map'
+ * source-map 大而全 生成单独源码文件，定义行和列
+ * eval-source-map 不会生成单独的源码文件 
+ *  */

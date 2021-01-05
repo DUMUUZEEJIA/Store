@@ -19,7 +19,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "less": "^2.7.3",
     "less-loader": "^4.0.5",
     "mint-ui": "^2.2.13",

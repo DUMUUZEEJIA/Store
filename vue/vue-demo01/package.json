@@ -11,7 +11,7 @@
     "prod": "webpack -p"
   },
   "dependencies": {
-    "aws-sdk": "^2.341.0",
+    "aws-sdk": "^2.814.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "module": "^1.2.5",

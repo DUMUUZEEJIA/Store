@@ -21,9 +21,9 @@
   "dependencies": {
     "axios": "^0.17.1",
     "less": "^2.7.3",
-    "less-loader": "^4.0.5",
+    "less-loader": "^11.1.0",
     "mint-ui": "^2.2.13",
-    "nuxt": "^1.0.0",
+    "nuxt": "^3.0.0",
     "vconsole": "^3.1.0",
     "vue-infinite-loading": "^2.2.3",
     "we-vue": "^1.6.2"
@@ -33,7 +33,7 @@
     "babel-plugin-component": "^1.1.0",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
+    "eslint-loader": "^4.0.2",
     "eslint-plugin-html": "^3.1.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
